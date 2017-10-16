@@ -6,7 +6,7 @@ import Data.List ((\\))
  
 -- Tipos
 data Casa = Casa   
-    { cor :: Cor      -- <trait> :: Casa -> <Trait>
+    { cor :: Cor     
     , pessoa   :: Pessoa
     , animal   :: Animal
     , bebida :: Bebida
